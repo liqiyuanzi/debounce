@@ -1,6 +1,6 @@
 module.exports = debounce
 function debounce(fn,delay,immediately){
-	let timer,args,context,result;
+	var timer,args,context,result;
 
 	function debounced(){
 		context = this;
